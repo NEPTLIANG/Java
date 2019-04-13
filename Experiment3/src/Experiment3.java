@@ -1,5 +1,5 @@
 import java.io.*;
-/*1、编写一个方法验证一个IP地址的格式是否正确，正确返回true，不正确返回false，该方法可定义如下
+/*实验3：1、编写一个方法验证一个IP地址的格式是否正确，正确返回true，不正确返回false，该方法可定义如下
 public boolean isRightIP(String ip)
 其中，参数是要验证的IP字符串。（注：IP地址由4部分构成，即a.b.c.d，每个部分是0~255的整数）
 2、从键盘读入以字符，在main方法中调用isRightIP(String ip)以测试输入的字符串是否为合法的IP，给出结果。*/
