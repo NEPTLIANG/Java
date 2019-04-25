@@ -7,9 +7,9 @@ public boolean isRightIP(String ip)
 
 public class Experiment3 {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {  //别忘了throws IOException
         InputStreamReader inp = new InputStreamReader(System.in);
-        BufferedReader buf = new BufferedReader(inp);
+        BufferedReader buf = new BufferedReader(inp);  //别漏new
         String ip = buf.readLine();
         if (isRightIP(ip)) {
             System.out.println("true");
