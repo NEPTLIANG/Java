@@ -11,6 +11,6 @@ public class Experiment11 {
         String url = "jdbc:sqlserver://localhost:1433;DatabaseName=myDB";  //设置连接的url参数
         Connection conn = DriverManager.getConnection(url, "test", "test");  //创建连接
         Statement stmt = conn.createStatement();  //创建Statement对象
-        stmt.executeUpdate("CREATE TABLE Student");  //执行增删改语句
+        stmt.executeUpdate("CREATE TABLE Student(name char(20))");  //执行增删改语句
     }
 }
